@@ -2,7 +2,7 @@
   "name": "vanilla/cloud-interops",
   "description": "Provides Vanilla Cloud contracts",
   "type": "library",
-  "license": "Proprietary",
+  "license": "GPL-2.0-only",
   "require": {
       "php": ">=7.2.0"
   }
