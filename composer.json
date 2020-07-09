@@ -1,0 +1,9 @@
+{
+  "name": "vanilla/cloud-interops",
+  "description": "Provides Vanilla Cloud contracts",
+  "type": "library",
+  "license": "Proprietary",
+  "require": {
+      "php": ">=7.2.0"
+  }
+}
