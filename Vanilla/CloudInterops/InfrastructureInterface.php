@@ -17,8 +17,14 @@ interface InfrastructureInterface {
      *
      * @return int
      */
-    public function getSiteId(): int;
+    public function getSiteID(): int;
 
+    /**
+     * Get Account Id
+     *
+     * @return int
+     */
+    public function getAccountID(): int;
 
     /**
      * Get Cluster Name
