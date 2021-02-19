@@ -59,4 +59,11 @@ interface InfrastructureInterface {
      * @return bool
      */
     public function isFeatureEnable(string $featureName, bool $default = true): bool;
+
+    /**
+     * Returns information related to the Cluster's resources allocation
+     *
+     * @return array Empty array for non-infrastructure environments
+     */
+    public function getClusterResourceAllocation(): array;
 }
